@@ -1,0 +1,1 @@
+create table mytest (roll int(10), name varchar(25))

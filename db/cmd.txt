@@ -1,0 +1,7 @@
+sudo docker build -t myback .
+docker container run -itd -p 4000:4000 --name myBackC myback
+
+
+
+mysql -u root -h localhost --port=3307 --protocol=tcp -p
+
